@@ -1,0 +1,493 @@
+.news-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto;
+    gap: 20px;
+}
+
+.highlight-news {
+    
+    grid-column: 1 / -1;
+    display: flex;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding-bottom: 500px;
+    padding: 150px; 
+}
+
+.highlight-news img {
+    max-width: 200px;
+    margin-right: 20px;
+}
+
+.small-news {
+    display: flex;
+    background-color: #f8f9fa;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.small-news img {
+    max-width: 100px;
+    margin-right: 10px;
+}
+
+#submenu {
+    display: none;
+}
+
+.logo {
+    width: 55px;
+    height: auto;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    margin-bottom: 15px;
+    
+}
+
+#textbienvenidos {
+   font-family:'Franklin Gothic Medium';
+   font-display:initial;
+   font-size: 50px;
+}
+
+#textbienvenidos2 {
+    font-family:'Trebuchet MS';
+    font-display:initial;
+    font-size: 40px;
+}
+
+#textbienvenidos2A {
+    font-family:'Trebuchet MS';
+   
+    font-display:initial;
+    font-size: 40px;
+}
+
+.logos-container img {
+    
+    transition: transform 0.3s ease-in-out;
+}
+
+.logos-container img:hover {
+    transform: scale(1.1);
+}
+
+.testimonial, .testimonial2, .testimonial3 {
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #f8f9fa;
+    padding: 70px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 50px; 
+    padding-left: 150px;
+   
+}
+
+.testimonial img, .testimonial2 img, .testimonial3 img {
+    
+    max-width: 300px; 
+    height: auto; 
+    margin-right: 100px;
+    
+}
+
+.testimonial blockquote, .testimonial2 blockquote, .testimonial3 blockquote {
+    margin: 0;
+    font-style: italic;
+}
+
+.testimonial .student-name, .testimonial2 .student-name, .testimonial3 .student-name {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.student-carrera{
+    margin-bottom: -10px;
+    font-weight: bold;
+}
+
+#ellosh {
+    font-family:'Franklin Gothic Medium';     
+    padding-left: 30px;
+    padding-top: 60px;  
+    
+}
+
+#testimonial-carousel{
+    
+    margin-bottom: 20px;
+}
+
+.highlight-news {
+    
+    margin-bottom: 20px;
+    padding-left: 100px;
+}
+
+.blockquote-footer {
+    padding-top:  15px; 
+  size: 18px;
+}
+
+.btn-dark{
+    margin-top: 15px;
+}
+
+.btn-dark2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#nprincipal{
+    font-family: verdana;
+}
+
+footer {
+    margin-top: 40%;
+    padding-top: 50px;
+    padding-bottom:70px; 
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+footer h5 {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+footer ul {
+    padding-left: 0;
+    
+}
+
+footer ul li {
+    margin-bottom: 5px;
+    gap:-5px;
+    margin-bottom: 25px;
+}
+
+footer ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    
+}
+
+footer ul li a:hover {
+    color: #adb5bd;
+    text-decoration: underline;
+}
+
+footer .social-icon {
+    transition: transform 0.3s ease-in-out;
+   
+}
+
+.justify-content-between {
+    gap:40px;
+    justify-content:center;
+}
+
+#redes {
+    gap: 2px;
+}
+
+footer .social-icon:hover {
+    transform: scale(1.2); 
+}
+
+footer .logos-container a {
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 130px;
+    
+}
+
+footer .logos-container img {
+    transition: transform 0.3s ease-in-out;
+}
+
+footer .logos-container img:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 767px) {
+    footer .row > div {
+        text-align: center;
+    footer .logos-container {
+        text-align: center;
+       
+    }
+
+    footer .logos-container a {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+}
+
+#redes ul {
+    justify-content: left !important; 
+}
+
+.social-icon {
+    margin: 0 0px; 
+}
+
+footer h5 {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 20px; 
+    margin-bottom: px; 
+}
+
+footer h5::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px; 
+    background-color: white; 
+}
+.bg-custom-dark {
+    background-color: #212126 !important;
+    height: 70px;
+}
+.navbar .nav-link {
+    color: white !important;
+    font-family: 'Trebuchet MS';    
+    font-size: smaller; 
+}
+.navbar .nav-link:hover {
+    color: #d4d4d4 !important;
+}
+
+#categoriasMenu {
+    color: white !important;
+    font-family: 'Trebuchet MS';
+    font-size:medium;
+}
+
+.mini-logo {
+    width: 35px; 
+    height: auto;
+    margin-left: 30px;
+}
+
+.mini-logo2 {
+    width: 25px; 
+    height: auto;
+    padding-left: 10px;
+}
+
+#menuIcon {
+    color: white;
+    font-size: 1.2em;
+}
+
+#submenu {
+    display: none; 
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-nav .nav-item {
+    padding: 0.5rem 0;
+}
+
+.collapse.show {
+    display: flex !important; 
+    flex-direction: column; 
+}
+
+.highlight-news22{
+    background-image: url('img/eventos_Prancheta\ 1.png');
+    background-size: cover; 
+    background-position: center; 
+    margin-bottom: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.highlight-news {
+    background-image: url('img/newsbg_Prancheta\ 1.png');
+    background-size: cover; 
+    background-position: center; 
+    margin-bottom: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   
+    
+}
+
+.news-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto; 
+    gap: 20px;
+    margin: 20px;
+}
+
+.highlight-news22 {
+    grid-column: 1 / -1;
+    display: flex;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    margin-bottom: 20px; 
+    padding: 110px 100px; 
+   
+}
+
+.highlight-news22 img {
+    max-width: 200px;
+    margin-right: 20px;
+}
+
+.small-news {
+    display: flex;
+    background-color: #f8f9fa; 
+    padding: 10px; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    margin-bottom: 20px; 
+}
+
+.small-news img {
+    max-width: 100px; 
+    margin-right: 10px; 
+}
+
+/* NOTICIA RARA CARRUSEL */
+
+.col-md-4 {
+    position:relative; 
+    left: 200%;    
+    
+}
+
+#carouselExampleInterval1 {
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    width: 500%; 
+    height:200%;
+   
+    
+   
+}
+
+.img-thumbnail-container {
+    position: absolute; 
+    top: 0; 
+    left: 150%; 
+    width: 100%;  
+   
+}
+
+
+@media (max-width: 768px) {
+    .img-thumbnail-container {
+        top: 100px;
+        flex-direction: column;
+        align-items: right;
+        
+    }
+
+    .img-thumbnail {
+        margin-bottom: 10px;
+        width: 100%;
+        cursor: pointer;
+        
+    }
+}
+
+.img-thumbnail:not(:last-child) {
+    margin-right: 10px;
+}
+
+.d-block {
+   
+    flex-direction: column;
+    margin-top: 20px;
+
+}
+
+/*FIN /* NOTICIA RARA CARRUSEL */
+
+.italico {
+
+font-style: italic;
+
+}
+
+.logoif {   
+    width: auto;
+    height: auto;
+    margin: -60px;
+    padding-left: 55px;
+    padding-bottom: 20px;
+    
+}
+
+.noticia-principal {
+    grid-column: 1 / -1;
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: flex-start;
+    align-items: center;   
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px; 
+    margin-bottom:50px;
+    
+}
+
+.noticia-principal img {
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+    margin-right: 20px; 
+    
+}
+
+.button.btn.btn-outline-dark{
+    
+    align-self: flex-end; 
+    margin-top: auto; 
+    margin-right: 50px; 
+    justify-self: right;
+    
+}
+
+.mylogo {
+    display: inline-block;
+    margin: 0 ;
+    transition: transform 0.3s ease;
+}
+
+.mylogo img {
+   width: 11px;
+    height: auto;
+    margin-left: -150px;
+}
+
+.mylogo:hover {
+    transform: scale(1.1);
+}
+
